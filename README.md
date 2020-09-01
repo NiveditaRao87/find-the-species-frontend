@@ -1,3 +1,5 @@
+Site is published at https://silly-morse-0eed16.netlify.app/
+
 Find the species project is used to identify species, add observations, refer to guides, and learn to identify species
 Users should be able to login and share observations or ask for identification by sharing pictures.
 The website will only be a skeleton and will not contain the entire database. Some parts will use an api https://www.gbif.org/developer/species and some will refer to the database. The database will be a sample, most species wont have images available.
