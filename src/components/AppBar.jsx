@@ -31,11 +31,11 @@ const SocialIcon = ({ icon }) => {
 export default function ButtonAppBar() {
   //  hrefs will be added later on and sub menu items
   const appBarMenuItems = [
-    { name: 'About' },
-    { name: 'Identifier' },
-    { name: 'Guides' },
-    { name: 'Observations' },
-    { name: 'Games & Learning' }
+    { name: 'About', href:'#about' },
+    { name: 'Identifier', href:'#identifier' },
+    { name: 'Guides', href:'#guides' },
+    { name: 'Observations', href:'#observations' },
+    { name: 'Games & Learning', href:'#gamesnlearning' }
   ]
 
   const socialIcons = [{id: 1, name: TwitterIcon}, 
@@ -90,7 +90,7 @@ export default function ButtonAppBar() {
                 </Grid>
                 <Grid item>
                   <Typography>
-                    <Link href='#'> Community </Link>
+                    <Link href='#community'> Community </Link>
                   </Typography>
                 </Grid>
                 <Grid item>
@@ -107,7 +107,7 @@ export default function ButtonAppBar() {
               <Grid item container alignItems='center' justify='flex-end'>
                 <Typography>
                   {appBarMenuItems.map(menuItem => (
-                    <Link style={{marginRight: '10px'}} href='#' key={menuItem.name}>
+                    <Link style={{marginRight: '10px'}} href={menuItem.href} key={menuItem.name}>
                       {menuItem.name}{' '}
                     </Link>
                   ))}

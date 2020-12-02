@@ -20,7 +20,7 @@ function App() {
         </main>
         </div>
         <footer style={{textAlign: 'center'}}>
-        <a style={{fontSize: '1rem'}} href='https://www.instagram.com/vikranthupili/'>Background image credited to Vikranth Thupili</a>
+        <a style={{fontSize: '1rem'}} href='https://www.instagram.com/vikranthupili/'>Photo by Vikranth Thupili</a>
         </footer>
         </>
 }
